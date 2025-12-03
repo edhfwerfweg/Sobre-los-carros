@@ -1,0 +1,218 @@
+body{
+    font-family: Arial, sans-serif;
+    background-image: url(https://i.blogs.es/94ae97/windows-365-1920x1080-microsoft-windows-11-4k-24070/840_560.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: black;
+    margin: 0;
+}
+header{
+    background-color: black;
+    color: aliceblue;
+    padding: 15px;
+    text-align: center;
+}
+header h1{
+    margin: 0;
+    font: 2.5em;
+}
+nav ul{
+    list-style: none;
+    padding: 0;
+    margin: 10px 0 0;
+}
+nav ul li{
+    display: inline-block; 
+    margin: 0 15px;
+}
+nav ul li a{
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+nav ul li a:hover{
+    color: aquamarine;
+}
+main{
+    padding: 20px;
+    text-align: center;
+}
+main h2{
+    color: darkgray;
+    font-size: 2em;
+    margin-top: 0;
+}
+main p{
+    font-size: 1.2em;
+}
+footer{
+    background-color: dimgrey;
+    color: aliceblue;
+    text-align: center;
+    padding: 4px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+table{
+    width: 100%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    background-color: white;
+}
+th, td{
+  padding: 5px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+th{
+  background-color: #333;
+  color: white;
+}
+tr:hover{
+    background-color: #f1f1f1;
+}
+.review-link{
+    padding: 8px 12px;
+    background-color: #333;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.review-link:hover{
+    background-color: #555;
+}
+.product-img{
+    width: 100px;
+}
+
+.video-container{
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 10px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    text-align: center;
+}
+.video-container video{
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    border: 2px solid #00aaff;
+}
+
+
+form{
+    max-width: 400px;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+}
+
+
+label{
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input, select, textarea{
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+
+input[type="submit"]{
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover{
+background-color: #4CAF50;
+}
+
+
+.contenedor{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px; /* Separacion entre las columnas */
+}
+
+.columna{
+    flex: 1; /* Hacer que cada columna ocupe el mismo espacio */
+}
+
+
+iframe{
+    width: 100%;
+    height: 300px;
+    border: 0;
+}
+
+
+.boto-flotante{
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    bottom: 20px;
+    right: 20px;
+    border-radius: 50px;
+    box-shadow: 1px 1px 1px #ccc;
+    z-index: 100;
+}
+.boton-flotante img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.card-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    justify-content: center;
+    max-width: 900px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+.card{
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1)
+}
+
+.card h2{
+    margin: 0 0 10 px;
+    color: #444;
+}
+.card p{
+    color: #666;
+}
+.cad ul{
+    list-style-type: none;
+    padding: 0;
+    color: #666;
+}
+
+button{
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+botton:hover{
+    background-color: #218838;
+}
